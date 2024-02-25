@@ -9,7 +9,7 @@ function somar(){
 
     var res = document.getElementById("res")
     var s = n1+n2
-    res.innerHTML = s
+    res.innerHTML = `A soma entre ${n1} e ${n2} é <u><b>${s}</b></u>`
 
 
 
