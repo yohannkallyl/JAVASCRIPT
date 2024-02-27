@@ -23,6 +23,15 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
 }
 
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+#msg{
+    font-size: 20px;
+}
+
 footer{
     color: white;
     text-align: center;
