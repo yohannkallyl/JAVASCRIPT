@@ -1,2 +1,2 @@
 # JAVASCRIPT
- CursoemVídeo JavaSscript
+ CursoemVídeo JavaSscript + aprendizados pessoais

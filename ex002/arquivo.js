@@ -32,13 +32,17 @@ function verificar(){
         }else if(fsex[1].checked){
             var genero = "Mulher"
             if(idade >= 0 && idade < 10){
-                //CRIANÇA
+                img.setAttribute("src", "young-girl-web.png")
+                document.body.style.background = "#be9989"
             }else if(idade < 21){
-                //JOVEM
+                img.setAttribute("src", "teen-girl-web.png")
+                document.body.style.background = "#644c48"
             }else if(idade < 50){
-                //ADULTO
+                img.setAttribute("src", "adult-girl-web.png")
+                document.body.style.background = "#56241c"
             }else{
-                //IDOSO
+                img.setAttribute("src", "elderly-girl-web.png")
+                document.body.style.background = "#292927"
             }
         }
         res.innerHTML = `Detectamos ${genero} de ${idade} anos`
