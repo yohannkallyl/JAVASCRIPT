@@ -8,24 +8,22 @@
 </head>
 <body>
     <header>
-        <h1>Super Contador</h1>
+        <h1>Tabuada</h1>
     </header>
 
     <section>
-        <div id="msg">
+        <div id="numero">
+            <label for="txtn1">Número: <input type="number" name="txtn1" id="txtn1"></label>
             
-            <label for="txtinicio">Início: <input type="number" name="txtinicio" id="txtinicio"></label> <br>
-
-            <label for="txtfim">Fim: <input type="number" name="txtfim" id="txtfim"></label> <br>
-
-            <label for="txtpasso">Passo: <input type="number" name="txtpasso" id="txtpasso"></label> <br>
-
-            <input type="button" value="Calcular" onclick="calcular()">
+            <input type="button" value="Gerar Tabuada" onclick="calcular()">
 
         </div>
         
         <div id="res">
-            
+            <select id="tab" size="10">
+                <option value="" id="">Digite um número acima</option>
+            </select>
+                
         </div>
     </section>
 
